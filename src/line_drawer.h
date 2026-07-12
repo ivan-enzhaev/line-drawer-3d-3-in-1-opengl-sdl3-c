@@ -22,9 +22,6 @@ extern "C"
         GLint uColorLocation;
         GLint uMvpLocation;
         mat4 projViewMatrix;
-        mat4 modelMatrix;
-        mat4 mvpMatrix;
-        mat4 rotationMatrix;
         int vertCount;
     } LineDrawer;
 
